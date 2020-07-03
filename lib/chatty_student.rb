@@ -6,12 +6,7 @@ class ChattyStudent < Student
   end
   
   def raise_hand
-    times = 0
-    until times == 11
-      super
-      times += 1
-    end
-  end
+    super
   
     
   
